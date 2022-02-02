@@ -1,3 +1,3 @@
 $client = new-object System.Net.WebClient
-$client.DownloadFile("https://mabox.herokuapp.com/uploads/Lock_With_Phone.exe" , "script.exe")
-powershell Start-Process script.exe
+$client.DownloadFile("https://github.com/batuhan-demir/PC_Kontrol_PS/raw/main/Lock_With_Phone.exe" , "app.exe")
+powershell Start-Process app.exe
